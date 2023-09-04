@@ -4,6 +4,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import Buttons from "$store/islands/HeaderButton.tsx";
 import Modals from "$store/islands/HeaderModals.tsx";
 import SearchBar from "$store/islands/HeaderSearchbar.tsx";
+import Image from "deco-sites/std/components/Image.tsx";
 import NavItem, { INavItem } from "./NavItem.tsx";
 import { megaMenuDefaultItems } from "./constants.ts";
 
@@ -23,20 +24,23 @@ export interface Props {
   searchbar: SearchbarProps;
 }
 
-function HeaderLayout(
-  {
-    navItems = megaMenuDefaultItems as INavItem[],
-    minicart,
-    searchbar,
-  }: Props,
-) {
+function HeaderLayout({
+  navItems = megaMenuDefaultItems as INavItem[],
+  minicart,
+  searchbar,
+}: Props) {
   return (
     <header class="z-50 lg:p-0 py-2">
       <div class="flex justify-between items-center lg:p-0">
         <div class="flex items-center gap-5">
           <Buttons variant="menu" />
           <a href="/" class="" aria-label="Store logo">
-            <Icon id="Logo" width={120} height={27} />
+            <Image
+              src="https://moocaplaza.vtexassets.com/arquivos/logo.svg"
+              width={120}
+              height={27}
+              style={{ width: 56, height: 45, margin: 0 }}
+            />
           </a>
         </div>
         <div class="max-lg:hidden flex justify-between">
@@ -64,10 +68,7 @@ function HeaderLayout(
         </div>
       </div>
 
-      <Modals
-        minicart={minicart}
-        menu={{ items: navItems }}
-      />
+      <Modals minicart={minicart} menu={{ items: navItems }} />
     </header>
   );
 }

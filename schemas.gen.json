@@ -8761,7 +8761,7 @@
             "null"
           ],
           "title": "Copy Right",
-          "default": "AgÃªncia N1 - Todos os Direitos Reservados"
+          "default": "Agência N1 - Todos os Direitos Reservados"
         }
       },
       "required": [],
@@ -9477,7 +9477,7 @@
       "required": [],
       "title": "OptionalColors"
     },
-    "ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@7ce107c88554f1ca364eabc6a824a42e&Colors": {
+    "ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@26eae889dda29c697bbd406840031fb3&Colors": {
       "allOf": [
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@Colors"
@@ -9493,7 +9493,7 @@
           "required": []
         }
       ],
-      "title": "7ce107c88554f1ca364eabc6a824a42e&Colors"
+      "title": "26eae889dda29c697bbd406840031fb3&Colors"
     },
     "ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@Miscellaneous": {
       "type": "object",
@@ -9596,7 +9596,7 @@
       "type": "object",
       "properties": {
         "colors": {
-          "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@7ce107c88554f1ca364eabc6a824a42e&Colors",
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9EZXNpZ25TeXN0ZW0vRGVzaWduU3lzdGVtLnRzeA==@26eae889dda29c697bbd406840031fb3&Colors",
           "title": "Colors"
         },
         "miscellaneous": {
@@ -10016,7 +10016,7 @@
           "type": "string",
           "title": "Opening hours",
           "format": "html",
-          "default": "Seg. Ã  Sex. das 09:00h Ã s 18:00h <br /> SÃ¡bado das 10:00h Ã s 14:00h"
+          "default": "Seg. à Sex. das 09:00h às 18:00h <br /> Sábado das 10:00h às 14:00h"
         },
         "payments": {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9jb21wb25lbnRzL2Zvb3Rlci9QYXltZW50cy50c3g=@FooterSectionItem[]",
@@ -12528,16 +12528,16 @@
         "content": {
           "anyOf": [
             {
-              "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9JbnN0aXR1dGlvbmFsL1RleHRDb250ZW50LnRzeA=="
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9ib2lsZXJwbGF0ZW4xL3NlY3Rpb25zL0luc3RpdHV0aW9uYWwvVGV4dENvbnRlbnQudHN4"
             },
             {
-              "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9JbnN0aXR1dGlvbmFsL0FjY29yZGlvbnNDb250ZW50LnRzeA=="
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9ib2lsZXJwbGF0ZW4xL3NlY3Rpb25zL0luc3RpdHV0aW9uYWwvQWNjb3JkaW9uc0NvbnRlbnQudHN4"
             },
             {
-              "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9JbnN0aXR1dGlvbmFsL0NhcmRzQ29udGVudC50c3g="
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9ib2lsZXJwbGF0ZW4xL3NlY3Rpb25zL0luc3RpdHV0aW9uYWwvQ2FyZHNDb250ZW50LnRzeA=="
             },
             {
-              "$ref": "#/definitions/ZGVjby1zaXRlcy9sdWNjaS9zZWN0aW9ucy9JbnN0aXR1dGlvbmFsL0NvbnRhY3RGb3JtLnRzeA=="
+              "$ref": "#/definitions/ZGVjby1zaXRlcy9ib2lsZXJwbGF0ZW4xL3NlY3Rpb25zL0luc3RpdHV0aW9uYWwvQ29udGFjdEZvcm0udHN4"
             }
           ],
           "title": "Content"

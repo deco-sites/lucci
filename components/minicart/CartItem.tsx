@@ -67,7 +67,7 @@ function CartItem({ index, currency }: Props) {
           ? (
             <div>
               <span class="text-xs text-base-content lg:text-xs">
-                ou {highestNumberInstallments}x de {""}
+                ou {highestNumberInstallments}x de {sellingPrice || ""}
                 {highestNumberInstallments
                   ? formatPrice(sellingPrice / highestNumberInstallments / 100)
                   : ""}
